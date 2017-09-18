@@ -4,7 +4,8 @@ body
     font: "Lato", sans-serif;
     font-size: 30px;
     font-style: oblique;
-    margin: 0;
+    margin: 5px; 
+    background-color: "#1a1a1a";
 }
 .img1, .img2, .img3
 {
@@ -15,28 +16,39 @@ body
 }
 .img1
 {
+    opacity: 0.65;
     background-image: url("./MilkyWay.jpg");
     min-height: 500px;
 }
 .img2
 {
+    opacity: 0.85;
     background-image: url("./nebula.jpg");
     min-height: 500px;
 }
 .img3
 {
+    opacity: 1;
     background-image: url("./eclipse.jpg");
     min-height: 500px;
 }
 .caption
 {
+    padding: 20px;
     position: absolute;
     text-align: center;
+    color: azure;
 }
-.info1, info2
+.info1, info2 
 {
-    color: black;
+    padding: 10px;
+    color: azure;
     text-align: center;
     font: 20px;
 }
+.border{
+    
+}
+.inviteBar{}
+
 
