@@ -1,1 +1,26 @@
-
+body
+{
+    
+}
+.img1, .img2, .img3
+{
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1
+{
+    background-image: url("./MilkyWay.jpg");
+    min-height: 100%;
+}
+.img2
+{
+    background-image: url("./nebula.jpg");
+    min-height: 400px;
+}
+.img3
+{
+    background-image: url("./eclipse.jpg");
+    min-height: 400px;
+}
