@@ -4,7 +4,7 @@
     <script type="text/javascript" src="proj.js"></script>
   </head>
 
-  <body>
+  <body onload="initGuestList()">
     <div class="img1">
       <div class="caption">
         <span class="border">PARTY FRIDAY</span>
@@ -17,8 +17,9 @@
 
     </div>
     <div class="info2">
+      <h3>Guests attending</h3>
       <div id="guests">
-      Guests coming:
+        
       </div>
     </div>
     <div class="img3">
@@ -26,7 +27,8 @@
         <span class="border">THE PARTY IS HERE!</span>
       </div>
       <div class="inviteBar">
-        <p><input type="text" id="name" placeholder="Enter Name"><button id="acceptbtn" onclick="addName()">Accept Invite</button></p>
+        <input type="text" id="name" placeholder="Enter Name">
+        <button id="acceptbtn" onclick="addName()">Accept Invite</button>
       </div>
     </div>
   </body>
