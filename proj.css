@@ -2,7 +2,7 @@ body
 {
     height: 100%;
     font: "Lato", sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     font-style: oblique;
     margin: 2px; 
     color: azure;
@@ -33,13 +33,21 @@ body
     background-image: url("./eclipse.jpg");
     min-height: 500px;
 }
+.border{
+    color:azure;
+    background-color: "1a1a1a";
+}
+h3
+{
+    color: azure;
+}
 .caption
 {
     opacity: 1;
     padding: 0px;
     position: absolute;
     text-align: center;
-    font-size: 200%;
+    font-size: 8vw;
     color: skyblue;
     left: 0;
     top: 50%;
@@ -51,13 +59,10 @@ body
     color: azure;
     background-color: "#1a1a1a";
     text-align: center;
-    font: 20px;
+    font: 4vw;
 }
-.border{
-    color:azure;
-    background-color: "1a1a1a";
-}
-.inviteBar{
+.inviteBar
+{
     color: azure;
     background-color: "1a1a1a";
     text-align: center;    
@@ -66,8 +71,6 @@ body
     color: aliceblue;
     background-color: "1a1a1a";
 }
-h3{color: azure;}
-
 ul {
     list-style-type: none;
 }
