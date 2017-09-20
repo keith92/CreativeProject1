@@ -4,7 +4,7 @@ body
     font: "Lato", sans-serif;
     font-size: 30px;
     font-style: oblique;
-    margin: 5px; 
+    margin: 2px; 
     color: azure;
     background-color: "#1a1a1a";
 }
@@ -35,18 +35,19 @@ body
 }
 .caption
 {
-    padding: 20px;
+    opacity: 1;
+    padding: 0px;
     position: absolute;
     text-align: center;
-    color: azure;
-    background-color: "#1a1a1a";
+    font-size: 200%;
+    color: skyblue;
     left: 0;
     top: 50%;
     width: 100%;
 }
 .info1, .info2 
 {
-    padding: 10px;
+    padding: 20px;
     color: azure;
     background-color: "#1a1a1a";
     text-align: center;
