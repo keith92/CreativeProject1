@@ -39,6 +39,7 @@ body
     position: absolute;
     text-align: center;
     color: azure;
+    background-color: "#1a1a1a";
     left: 0;
     top: 50%;
     width: 100%;
@@ -47,6 +48,7 @@ body
 {
     padding: 10px;
     color: azure;
+    background-color: "#1a1a1a";
     text-align: center;
     font: 20px;
 }
