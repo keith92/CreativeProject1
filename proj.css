@@ -59,7 +59,7 @@ body
 .inviteBar{
     color: azure;
     background-color: "1a1a1a";
-    
+    text-align: center;    
 }
 .guests{
     color: aliceblue;
