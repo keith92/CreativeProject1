@@ -5,6 +5,7 @@ body
     font-size: 30px;
     font-style: oblique;
     margin: 5px; 
+    color: azure;
     background-color: "#1a1a1a";
 }
 .img1, .img2, .img3
@@ -47,8 +48,18 @@ body
     font: 20px;
 }
 .border{
+    color:azure;
+    background-color: "1a1a1a";
+}
+.inviteBar{
+    color: azure;
+    background-color: "1a1a1a";
     
 }
-.inviteBar{}
+.guests{
+    color: aliceblue;
+    background-color: "1a1a1a";
+}
+h3{color: azure;}
 
 
