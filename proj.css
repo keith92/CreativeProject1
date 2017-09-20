@@ -39,8 +39,11 @@ body
     position: absolute;
     text-align: center;
     color: azure;
+    left: 0;
+    top: 50%;
+    width: 100%;
 }
-.info1, info2 
+.info1, .info2 
 {
     padding: 10px;
     color: azure;
@@ -62,4 +65,6 @@ body
 }
 h3{color: azure;}
 
-
+ul {
+    list-style-type: none;
+}
