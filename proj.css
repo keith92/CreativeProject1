@@ -2,7 +2,7 @@ body
 {
     height: 100%;
     font: "Lato", sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
     font-style: oblique;
     margin: 2px; 
     color: azure;
@@ -47,7 +47,7 @@ h3
     padding: 0px;
     position: absolute;
     text-align: center;
-    font-size: 8vw;
+    font-size: 6vw;
     color: skyblue;
     left: 0;
     top: 50%;
@@ -59,7 +59,7 @@ h3
     color: azure;
     background-color: "#1a1a1a";
     text-align: center;
-    font: 4vw;
+    font: 2vw;
 }
 .inviteBar
 {
